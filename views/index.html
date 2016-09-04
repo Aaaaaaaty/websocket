@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket Demo</title>
+  <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+<body>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control user-input">
+      <span class="input-group-btn">
+        <button class="btn btn-default user-submit" type="button">登录</button>
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control user-speak">
+      <span class="input-group-btn">
+        <button class="btn btn-default user-talk" type="button">发言</button>
+      </span>
+    </div>
+  </div>
+  <div class="content-left"></div>
+  <div class="content-right"></div>
+<script src="./javascripts/jquery-2.1.1.min.js"></script>
+<script src="./javascripts/bootstrap.min.js"></script>
+<script src="socket.io/socket.io.js"></script>
+<script src="./javascripts/main.js"></script>
+</body>
+</html>
